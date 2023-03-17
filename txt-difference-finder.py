@@ -1,7 +1,7 @@
 import sys
 
 if len(sys.argv) != 4:
-    print("Usage: python script.py <sourceFile> <comparisonFile>")
+    print("Usage: python script.py <sourceFile> <comparisonFile> <newFile>")
     exit()
 
 sourceFile = sys.argv[1]
