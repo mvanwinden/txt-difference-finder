@@ -2,7 +2,7 @@
 This script compares two text files and finds the words in one file that are not present in the other file. It outputs these words to a new file.
 
 ## Usage
-```bash
+```cmd
 git clone https://github.com/mvanwinden/txt-difference-finder
 python txt-difference-finder.py <sourceFile> <comparisonFile> <newFile>
 ```
