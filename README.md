@@ -4,11 +4,11 @@ This script compares two text files and finds the words in one file that are not
 ## Usage
 ```bash
 git clone https://github.com/mvanwinden/txt-difference-finder
-python txt-difference-finder.py <sourceFile> <comparisonFile> <outputFile>
+python txt-difference-finder.py 'sourceFile' 'comparisonFile' 'outputFile'
 ```
 
 where:
 
-* \<sourceFile> is the path to the text file you want to compare against the other file.
-* \<comparisonFile> is the path to the text file you want to compare with the source file.
-* \<outputFile> is the path to the new file that will be created, containing the words that are in the source file but not in the comparison file.
+* **sourceFile** is the path to the text file you want to compare against the other file.
+* **comparisonFile** is the path to the text file you want to compare with the source file.
+* **outputFile** is the path to the new file that will be created, containing the words that are in the source file but not in the comparison file.
