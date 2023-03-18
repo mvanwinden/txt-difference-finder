@@ -4,6 +4,7 @@ This script compares two text files and finds the words in one file that are not
 ## Usage
 ```bash
 git clone https://github.com/mvanwinden/txt-difference-finder
+cd txt-difference-finder
 python txt-difference-finder.py 'sourceFile' 'comparisonFile' 'outputFile'
 ```
 
